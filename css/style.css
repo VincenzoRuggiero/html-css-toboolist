@@ -1,0 +1,30 @@
+/* §§ Reset di tutti gli  stili */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8f9;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ## Sezione dell'header */
+header {
+  height: 75px;
+  background-color: #ffffff;
+}
+
+#main-logo {
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+}
+
+.title {
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 0.8rem;
+  padding-bottom: 3rem;
+  display: inline-block;
+}
