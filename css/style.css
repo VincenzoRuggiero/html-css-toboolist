@@ -109,6 +109,10 @@ button:hover {
   padding-bottom: 1.5rem;
 }
 
+.arrow {
+  font-size: small;
+}
+
 .check {
   display: inline-block;
   height: 20px;
