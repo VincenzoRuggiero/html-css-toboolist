@@ -17,6 +17,7 @@ main section {
 
 h3 {
   padding-bottom: 0.8rem;
+  color: #585a62;
 }
 
 .task-box {
@@ -59,7 +60,7 @@ header {
 
 /* ## Contenitore main*/
 main {
-  width: 80%;
+  width: 70%;
   max-height: 90%;
   margin: 2rem auto 0;
   background-color: #ffffff;
