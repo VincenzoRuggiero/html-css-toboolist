@@ -5,9 +5,37 @@
   box-sizing: border-box;
 }
 
+/* ? Elementi condivisi */
 body {
   background-color: #f6f8f9;
   font-family: "Roboto", sans-serif;
+}
+
+main section {
+  padding-left: 4rem;
+}
+
+h3 {
+  padding-bottom: 0.8rem;
+}
+
+.task-box {
+  padding-top: 2em;
+}
+
+.badge {
+  font-size: 0.7rem;
+  color: #ffffff;
+  padding: 5px 15px;
+  margin-left: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.task {
+  margin-bottom: 15px;
 }
 
 /* ## Sezione dell'header */
@@ -29,14 +57,14 @@ header {
   display: inline-block;
 }
 
-/* ## Contenitore */
+/* ## Contenitore main*/
 main {
   width: 80%;
   max-height: 90%;
   margin: 2rem auto 0;
   background-color: #ffffff;
-  border: 1px solid red;
   border-radius: 10px;
+  margin-bottom: 1rem;
 }
 
 /* ## Barra dei tasti */
@@ -56,6 +84,9 @@ button {
   vertical-align: middle;
   font-family: "Roboto", san-serif;
 }
+button:hover {
+  opacity: 0.6;
+}
 
 .blue-btn {
   background-color: #48adf1;
@@ -68,7 +99,58 @@ button {
   border: 1px solid lightgrey;
   margin-left: 10px;
 }
+.white-btn:hover {
+  color: #000;
+  border: 1px solid black;
+}
 
-.padding-left {
-  padding-left: 4rem;
+/* ## Sezione dei task */
+.tasks-container {
+  padding-bottom: 1.5rem;
+}
+
+.check {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  font-size: 0.7rem;
+  border-radius: 100%;
+  padding: 5px;
+  margin-right: 10px;
+  align-items: ;
+}
+
+.ok {
+  color: #2eba9f;
+  border: 1px solid #2eba9f;
+}
+
+.wrong {
+  color: #e60000;
+  border: 1px solid #e60000;
+}
+
+/* ## Badge */
+.editorial {
+  background-color: #45abe9;
+}
+
+.goals {
+  background-color: #9c72e4;
+}
+
+.recruiting {
+  background-color: #64c0a9;
+}
+
+.mobile {
+  background-color: #f29f3b;
+}
+
+.website {
+  background-color: #d763a1;
+}
+
+.sales {
+  background-color: #b0c925;
 }
